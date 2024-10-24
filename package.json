@@ -1,0 +1,56 @@
+{
+  "name": "nayan-theme",
+  "displayName": "Nayan Theme",
+  "description": "A better future with good color themes",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nayandas69/nayan-theme.git"
+  },
+  "license": "MIT",
+  "publisher": "NayanDas",
+  "icon": "images/icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nayan Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nayan-dark-color-theme.json"
+      },
+      {
+        "label": "Nayan Light",
+        "uiTheme": "vs",
+        "path": "./themes/nayan-light-color-theme.json"
+      },
+      {
+        "label": "Nayan Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nayan-blue-color-theme.json"
+      },
+      {
+        "label": "Nayan Green",
+        "uiTheme": "vs",
+        "path": "./themes/nayan-green-color-theme.json"
+      },
+      {
+        "label": "Nayan Purple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nayan-purple-color-theme.json"
+      },
+      {
+        "label": "Nayan Orange",
+        "uiTheme": "vs",
+        "path": "./themes/nayan-orange-color-theme.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "nayan-theme": "file:"
+  }
+}
